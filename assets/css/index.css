@@ -1,0 +1,214 @@
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+/* Parte Header*/
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #ffc017;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-bottom: 1px black solid;
+    align-items: center;
+    
+}
+#logo{
+    margin-left: 120px;
+    margin-right: 45%;
+}
+header ul li{
+    color: black;
+    display: flex;
+    float: left;
+    margin-right: 20px;
+}
+button{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+}
+
+/* Parte Main*/
+#header{
+    background-color: #ffc017;
+    height: 350px;
+    border-bottom: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+#container{
+    margin-left: 120px;
+    padding-top: 50px;
+}
+#container3{
+    position: absolute;
+    right: 0;
+}
+h1{
+    font-size: 70px;
+    margin: 0;
+}
+h3{
+    padding-bottom: 20px;
+}
+
+/* Seconda Parte Main*/
+
+
+#main2{
+    margin-left: 120px;
+
+}
+#main3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h4{
+    margin-left: 10px;
+}
+#main4{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+h2{
+    font-size: 40px;
+    color: #E6E8EB;
+    margin: 0;
+    margin-right: 20px;
+}
+#img{
+    width: 25px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+#recensione{
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-bottom: 40px;
+    max-width: 350px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+p, #h3{
+    margin: 0;
+    padding: 5px;
+}
+#diverso #h3{
+    margin: 0 0 0 0;
+    padding-right: 150px;
+}
+p{
+    font-size: 15px;
+    color: gray;
+}
+#bigcontainer{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    margin-left: 0px;
+    border-bottom: 1px solid #E6E8EB;
+}
+
+#inline{
+    display: flex;
+    flex-direction: row;
+}
+/* parte Articolo */
+article{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+#bottone{
+    width: max-content;
+    border: none;
+    color: black;
+    background-color: #E6E8EB;
+}
+#riunisci{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#gennaro{
+    max-width: 1000px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+#h3{
+    color: black;
+}
+#sunto{
+    display: flex;
+    align-items: center;
+}
+#container2{
+    max-width: 400px;
+    float: left;
+    flex-wrap: wrap;
+}
+
+#big{
+    padding-left: 20px;
+}
+#img2{
+    width: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Parte Aside */
+
+.aside{
+    position: sticky;
+    top: 30px;
+    margin-top: 28px;
+    margin-left: 150px;
+    max-width: 500px;
+    height: 300px;
+}
+.h5{
+    font-size: small;
+    margin: 0;
+    margin-bottom: 2px;
+}
+#aside{
+    background-color: white;
+    color: gray;
+    border-radius: 3px;
+    border: 1px solid rgb(192, 192, 192);
+    width: max-content;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+hr{
+    color: rgb(219, 219, 219);
+    margin-top: 30px;
+}
+#lista, li{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-top: 5px;
+    padding-left: 0px;
+}
